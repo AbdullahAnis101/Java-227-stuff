@@ -1,0 +1,14 @@
+#The following is a valid program for the CS227Comp architecture, with the
+#following caveat: Our input routines are not sophisticated enough to handle
+#the comments that appear in this code!  In order to run this program, you
+#will need to remove all comments manually, or write input routines that can
+#handle them.  Everything from a hash (#) to the end of the line where it
+#appears is a comment.
++1006  #read (opcode 10) a value from the terminal into memory address 06
++1007  #read (10)  a value from the terminal into memory address 07
++3006  #load (30) the value at memory address 06 into the accumulator
++5007  #add (50) the value at memory 07 to the accumulator
++4008  #store (40) the accumulator at memory 08
++2008  #write (20) the value at 08
+-99999 #sentinel value marking end of program
+
